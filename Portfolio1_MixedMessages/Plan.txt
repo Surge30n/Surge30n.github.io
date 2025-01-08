@@ -1,0 +1,4 @@
+html doc has some form of colour scheme with a simple button that says press me.
+when pressed css lowers shadow thus making the button feel "pressed"
+then a joke will pop up- not sure how I would Like this to happen just yet
+In a mega future version could have a breadcrumb to other pages but with different text types eg fact button

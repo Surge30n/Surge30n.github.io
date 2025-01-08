@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    background-color:#8B2E5F;
+}
+#Header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background-color: #450024;
+    width: 100%;
+    position: fixed;
+    height: 180px;
+    top:0;
+    font-size: 1.5em;
+    
+    
+    
+}
+#Header h1{
+    text-align: center;
+    color: #D08BAF;
+    
+}
+body{
+    display: flex;
+    margin-top:160px;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+.ButtonContainer{
+   width: 300px;
+   height: 260px;
+
+}
+
+#Button{
+    width:100%;
+    height: 100%;
+    background-color: #D08BAF;
+    border-radius: 30px;
+    box-shadow:0px 60px 0px #AD5784;
+    border: none;
+    font-size: 1.7em;
+    font-weight:100;
+    color: #450024;
+    
+    
+}
+#Button:active{
+    transform: translateY(30px);
+    box-shadow:0px 30px 0px #AD5784;
+}
